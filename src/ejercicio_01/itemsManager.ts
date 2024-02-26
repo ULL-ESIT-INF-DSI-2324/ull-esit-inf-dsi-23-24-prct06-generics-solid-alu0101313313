@@ -1,1 +1,0 @@
-import { itemsProperties } from './interfaces'
