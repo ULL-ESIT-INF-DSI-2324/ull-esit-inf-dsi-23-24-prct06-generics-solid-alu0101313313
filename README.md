@@ -3,6 +3,8 @@
 # Practica 6: Clases e Interfaces Genéricas. Principios SOLID
 <sup>José Javier Ramos Carballo, [alu0101313313@ull.edu.es](https://github.com/alu0101313313)
 
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101313313/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101313313?branch=main)
+
 ## Introducción
 
 En esta práctica, seguiremos profundizando con mas elementos que nos ofrece el lenguaje **Typescript**, asi como son las clases e interfaces genéricas.  
@@ -46,7 +48,7 @@ Al igual que en el ejericio anterior, tomé como referencia un ejercicio que ya 
 
 Para este ultimo punto, he recopilado algunas de las paginas que me han sido utiles para los ejercicos de la _práctica_:
 
-1. **Metodo Array.prototipe.push():** []()
+1. **Metodo Array.prototipe.splice():** [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 2. **Metodo Array.prototipe.pop():** []()
 3. **Metodo Array.prototipe.in():** []()
 4. **Apuntes de la asignatrua relativos a arrays:**[]()

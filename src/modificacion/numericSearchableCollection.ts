@@ -5,7 +5,7 @@ import { SearchableCollection } from "./searchableCollection";
  * that define his type in number, to add items, get items, and other functions in a number array
  */
 export class NumericSearchableCollection extends SearchableCollection<number>{
-  constructor(private items: number[]){
+  constructor(items: number[]){
     super(items);
   }
 

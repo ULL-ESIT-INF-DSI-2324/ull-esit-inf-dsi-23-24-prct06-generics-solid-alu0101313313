@@ -4,9 +4,10 @@
  * minimum parameters that has every object, in their classes.
  */
 export interface itemsProperties {
-    name: string;
-    dimensions: string;
-    amount: number;
-    weight: number;
+    id_: number
+    name_: string;
+    amount_: number;
+    description_: string;
 }
+
 
