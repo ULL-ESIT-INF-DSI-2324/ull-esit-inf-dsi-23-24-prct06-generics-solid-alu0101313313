@@ -32,6 +32,8 @@ En las horas en la que debía realizar este cambio fui completamente incapaz de 
 
 > Respecto al ejercicio 2 de la modificación, no vi claro como plantearla y en su momento ví mucho mas viable intentar el ejercicio anterior, es por ello que de este ejercicio no entregé nada.
 
+> Ademas, tengo que comentar que a la hora de tratar con el coveralls, por no modificar lo hecho en las pe, me daba problemas utilizar **typedoc** y **coveralls**, por ello aislé la carpeta de la modificación para que a la hora de realizas las pruebas del resto de la práctica no me diese problemas un codigo que no pueda modificar despues de la sesión pe.
+
 ### Ejercicio 01
 
 Similar a como se realizó en el [ejercicio 9 de la practica anterior](https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct03-types-functions-alu0101313313/blob/main/Ejercicios_Pr3/src/ejercicio-09.ts), desarrolle las diferentes funciones con la lógica utilizada anteriormente, no obstante, ideé generar un tipo `racional` que me permitiese trabajar con la dupla de números, y no tendiendo que separarlo y juntarlo en cada función.
