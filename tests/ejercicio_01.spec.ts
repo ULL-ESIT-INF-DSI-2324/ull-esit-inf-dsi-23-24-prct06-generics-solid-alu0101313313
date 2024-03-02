@@ -1,11 +1,11 @@
 import 'mocha'
 import { expect } from 'chai'
-import { Box } from '../../src/ejercicio_01/box'
-import { Toys } from '../../src/ejercicio_01/toys'
-import { Office } from '../../src/ejercicio_01/office'
-import { Toolkit } from '../../src/ejercicio_01/toolkit'
-import { Relocations } from '../../src/ejercicio_01/relocation'
-import { itemsProperties } from '../../src/ejercicio_01/interfaces'
+import { Box } from '../src/ejercicio_01/box'
+import { Toys } from '../src/ejercicio_01/toys'
+import { Office } from '../src/ejercicio_01/office'
+import { Toolkit } from '../src/ejercicio_01/toolkit'
+import { Relocations } from '../src/ejercicio_01/relocation'
+import { itemsProperties } from '../src/ejercicio_01/interfaces'
 
 describe(`Ejercicio 1 class Box tests`, () => {
 
