@@ -7,7 +7,7 @@ import { Toolkit } from '../src/ejercicio_01/toolkit'
 import { Relocations } from '../src/ejercicio_01/relocation'
 import { itemsProperties } from '../src/ejercicio_01/interfaces'
 
-describe(`Ejercicio 1 class Box tests`, () => {
+describe(`Ejercicio 1 tests`, () => {
 
   it('proves a box is a box<itemsProperties>', () => {
     let blueBox = new Box<Toys>("Caja azul de jueguetes");
