@@ -1,5 +1,5 @@
 import { Factura } from "./factura";
-import { formatearFactura } from "./interfaces";
+import { formatearFactura } from "./formatearFactura";
 
 /**
  * @class GestorFacturas es una clase que nos permite almacenar y generar facturas

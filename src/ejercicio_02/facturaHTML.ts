@@ -1,5 +1,5 @@
 import { Factura } from "./factura";
-import { formatearFactura } from "./interfaces";
+import { formatearFactura } from "./formatearFactura";
 
 /**
  * @class FacturaHTML implementa una factura en formato HTML
