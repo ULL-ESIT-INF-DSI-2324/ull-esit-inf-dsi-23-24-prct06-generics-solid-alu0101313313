@@ -1,3 +1,4 @@
+import 'mocha';
 import { expect } from 'chai';
 import { Printer } from '../src/ejercicio_04/printer';
 import { Scanner } from '../src/ejercicio_04/scanner';

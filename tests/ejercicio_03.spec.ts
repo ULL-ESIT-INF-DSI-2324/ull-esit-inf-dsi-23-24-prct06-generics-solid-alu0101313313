@@ -1,3 +1,4 @@
+import 'mocha';
 import { expect } from 'chai';
 import { FileReader } from '../src/ejercicio_03/FileReader';
 import { FileWriter } from '../src/ejercicio_03/FileWriter';
