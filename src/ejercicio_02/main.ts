@@ -1,13 +1,11 @@
 import { Factura } from './factura';
 import { FacturaPDF } from './facturaPDF';
 import { FacturaHTML } from './facturaHTML';
+import { GestorFacturas } from './gestorFacturas';
 
-const factura_1 = new Factura(121, "23-12-2001", 5);
-const factura_2 = new FacturaPDF;
-const factura_3 = new FacturaHTML;
+const factura: Factura = {id_ :121, date_: "23-12-2001", amount_: 5};
+const gestor = new GestorFacturas([new FacturaPDF, new FacturaHTML])
 
-const FacturaFormatoPDF: string = factura_2.generarFactura(factura_1);
-const FacturaFormatoHTML: string = factura_3.generarFactura(factura_1);
+let printFacturas: string[] = gestor.generarFactura(factura);
 
-console.log(FacturaFormatoPDF);
-console.log(FacturaFormatoHTML);
+printFacturas.forEach((factura_formateada) => console.log(factura_formateada));

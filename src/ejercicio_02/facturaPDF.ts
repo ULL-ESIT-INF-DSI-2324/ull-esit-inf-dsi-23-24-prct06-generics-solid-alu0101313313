@@ -1,12 +1,12 @@
 import { Factura } from "./factura";
-import { generacionFactura } from "./interfaces";
+import { formatearFactura } from "./interfaces";
 
 /**
  * @class FacturaPDF implementa una factura en formato PDF
- * @brief generarFactura señala que la factura se va a exportar a PDF
+ * @brief formatearFactura señala que la factura se va a exportar a PDF
  */
-export class FacturaPDF implements generacionFactura {
+export class FacturaPDF implements formatearFactura {
   generarFactura(factura: Factura): string {
-    return `Exportar la factura con id: ${factura.id} a formato PDF`;
+    return `Exportar la factura con id: ${factura.id_} a formato PDF`;
   }
 }
